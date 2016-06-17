@@ -253,9 +253,9 @@
             chatLink: "https://rawgit.com/Th3Luk1s/basicbot-Lukis/master/lang/en.json",
             scriptLink: "https://rawgit.com/Th3Luk1s/basicbot-Lukis/master/lang/en.json",
             roomLock: false, // Requires an extension to re-load the script
-            startupCap: 1, // 1-200
-            startupVolume: 0, // 0-100
-            startupEmoji: false, // true or false
+            startupCap: 50, // 1-200
+            startupVolume: 100, // 0-100
+            startupEmoji: true, // true or false
             autowoot: true,
             autoskip: false,
             smartSkip: true,
@@ -283,7 +283,7 @@
             skipPosition: 3,
             skipReasons: [
                 ["theme", "Šita daina netinka šitos bendruominės stiliaus. "],
-                ["op", "ĮŠita daina OP saraše. "],
+                ["op", "Šita daina OP saraše. "],
                 ["history", "Šita daina yra istorijoje. "],
                 ["mix", "You played a mix, which is against the rules. "],
                 ["sound", "The song you played had bad sound quality or no sound. "],
