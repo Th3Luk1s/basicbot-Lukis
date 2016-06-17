@@ -99,7 +99,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/basicBot/source/master/lang/langIndex.json", function (json) {
+        $.get("https://rawgit.com/Th3Luk1s/basicbot-Lukis/master/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -238,20 +238,20 @@
     var basicBot = {
         version: "2.8.17",
         status: false,
-        name: "basicBot",
+        name: "Maxsimas",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
+        scriptLink: "https://rawgit.com/Th3Luk1s/basicbot-Lukis/master/lang/en.json",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
+        chatLink: "https://rawgit.com/Th3Luk1s/basicbot-Lukis/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
+            botName: "Maxsimas",
             language: "english",
-            chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
-            scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
+            chatLink: "https://rawgit.com/Th3Luk1s/basicbot-Lukis/master/lang/en.json",
+            scriptLink: "https://rawgit.com/Th3Luk1s/basicbot-Lukis/master/lang/en.json",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
@@ -282,9 +282,9 @@
             thorCooldown: 10,
             skipPosition: 3,
             skipReasons: [
-                ["theme", "This song does not fit the room theme. "],
-                ["op", "This song is on the OP list. "],
-                ["history", "This song is in the history. "],
+                ["theme", "Šita daina netinka šitos bendruominės stiliaus. "],
+                ["op", "ĮŠita daina OP saraše. "],
+                ["history", "Šita daina yra istorijoje. "],
                 ["mix", "You played a mix, which is against the rules. "],
                 ["sound", "The song you played had bad sound quality or no sound. "],
                 ["nsfw", "The song you contained was NSFW (image or sound). "],
@@ -309,9 +309,9 @@
             songstats: true,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json",
-                OP: "https://rawgit.com/basicBot/custom/master/blacklists/OPlist.json",
-                BANNED: "https://rawgit.com/basicBot/custom/master/blacklists/BANNEDlist.json"
+                NSFW: "https://rawgit.com/Th3Luk1s/basicbot-Lukis/master/blacklists/NSFWlist.json",
+                OP: "https://rawgit.com/Th3Luk1s/basicbot-Lukis/master/blacklists/OPlist.json",
+                BANNED: "https://rawgit.com/Th3Luk1s/basicbot-Lukis/master/blacklists/BANNEDlist.json"
             }
         },
         room: {
